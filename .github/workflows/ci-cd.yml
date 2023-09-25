@@ -77,7 +77,7 @@ jobs:
     needs: [ RG-Job ]
 
     env: 
-      AZURE-WEBAPP-NAME: <<REPLACE>>-mywebapp-dev
+      AZURE-WEBAPP-NAME: app-u2u-dev
 
 
     steps:
